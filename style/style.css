@@ -1,0 +1,19 @@
+/* CSS de tout le site web */
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('banner.css');
+@import url('buttons.css');
+@import url('otherpages.css');
+@import url('head-otheractivities.css');
+@import url('activities.css');
+@import url('contact.css');
+
+
+body {
+	background-color: #f4e2b5;
+	font-family: 'Indie Flower', cursive;
+}
+
+p{
+	font-size: 19px;
+}

@@ -1,0 +1,43 @@
+/*CSS de la banniere de la premiere page*/
+
+.banner {
+  background-image: url("../images/banner-background.jpeg");
+  height: 60vh;
+  background-size: cover;
+  background-position: bottom;
+  color: goldenrod;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+ .banner img {
+  width: 205px;
+  height:  255px;
+  object-fit: scale-down;
+  object-position: top;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.banner h2 {
+  font-size: 23px;
+  color : #FFFFFF;
+  background-color: #E78C34;
+  border-radius: 4px; 
+  text-shadow: 1px 1px 1px #000000a6;
+  box-shadow: 2px 2px 5px 2px rgb(0 0 0 / 30%);
+  margin: 30px;
+}
+
+.banner a {
+  color: #FFFFFF;
+  font-size: large;
+  margin: 30px;
+}
+
+

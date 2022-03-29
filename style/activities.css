@@ -1,0 +1,33 @@
+/*CSS de la 2nd partie de la premiere page du site */
+
+.activities {
+	display:  grid;
+	grid-gap: 15px;
+	grid-template-columns: 2fr 2fr;
+}
+
+.activity {
+	padding: 12px;
+  background-color:  #A29161;
+  border-radius:  4px;
+  box-shadow: 1px 2px 7px 2px rgb(0 0 0 / 30%);
+  text-align: center;
+  margin: 20px 0;
+
+ }
+
+.activity img{
+  width: 400px;
+  height:  400px;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.activity h2 {
+  font-size: 27px;
+  border-radius: 4px; 
+  text-shadow: 1px 1px 1px #000000a6;
+  box-shadow: 2px 2px 5px 2px rgb(0 0 0 / 30%)
+}
